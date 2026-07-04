@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: sana-factory-backend
+Version: 0.1.0
+Summary: Sana Factory FastAPI backend
+Requires-Python: >=3.11
+Requires-Dist: fastapi>=0.115.0
+Requires-Dist: uvicorn[standard]>=0.30.0
+Requires-Dist: pydantic-settings>=2.4.0
+Requires-Dist: sqlalchemy>=2.0.0
+Requires-Dist: asyncpg>=0.29.0
+Requires-Dist: alembic>=1.13.0
+Requires-Dist: redis>=5.0.0
+Requires-Dist: python-jose[cryptography]>=3.3.0
+Requires-Dist: passlib[argon2]>=1.7.4
+Requires-Dist: loguru>=0.7.2
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: python-multipart>=0.0.9
